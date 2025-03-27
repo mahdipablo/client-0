@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   statusElement.innerText = "⏳ در حال ارسال به سرور...";
 
   try {
-    const response = await fetch("http://localhost:3000/validate", {
+    const response = await fetch("https://bun-server.up.railway.app/validate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
