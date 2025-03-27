@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   statusElement.innerText = "⏳ در حال ارسال به سرور...";
 
   try {
-    const response = await fetch("https://bun-server.up.railway.app/validate", {
+    const response = await fetch("https://server-0-mehdis-projects-010c34e1.vercel.app/validate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
